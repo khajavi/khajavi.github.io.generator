@@ -1,0 +1,107 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\usepackage{xepersian}
+
+\title{طرح
+پیشنهادی نرم‌افزار شرح واژگان قرآن}
+%\author{میلاد خواجوی}
+\date{۱۳۹۴/۰۲/۲۰}
+
+\begin{document}
+\maketitle
+
+\textbf{گوشزد ۱:} این نوشته برای ارائه به مرکز تحقیقات و نشر معارف
+اهل‌البیت یا هر شخصیّت حقیقی/حقوقی جهت تأمین هزینه‌های طرح، تنظیم شده
+است.
+
+\textbf{گوشزد ۲:} در این نوشته، طرح به صورت کلّی بیان شده و از بیان
+جزئیات پرهیز شده است.
+
+در حال حاضر برای خواندن متن قرآن نرم‌افزارهایی از جمله
+\href{http://tanzil.net}{تنزیل}، \href{quran.com}{قرآن دات کام} و
+\href{http://quran.ahlolbait.com/}{قرآن اهل‌البیت} موجود است. این
+پروژه‌ها معنی تمام آیه را به زبا‌ن‌های مختلف قرار می‌دهند اما معنای
+واژگان قرآن را ارائه نمی‌دهند. البته پروژه‌های
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \href{http://alpha.quran.com/}{آلفا دات قرآن دات کام}
+\item
+  \href{http://www.almaany.com/quran}{المعانی}
+\end{itemize}
+
+معانی واژگان را فقط به زبان انگلیسی ارائه می‌دهند که این کار برای
+فارسی‌زبان‌ها و دیگر کاربران غیر‌انگلیسی زبان کافی نیست.
+
+پیشنهاد می‌شود که پروژه‌ای راه‌اندازی شود دارای ویژگی‌های زیر باشد.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  برای جذب مشارکت عمومی حتماً به صورت نرم‌افزار آزاد ارائه شود.
+\item
+  در فاز اول برای کاربران فارسی‌زبان امکان نمایش ترجمهٔ تک تک واژگان
+  قرآن از عربی به فارسی را داشته باشد. به طوری که کاربر با کلیک بر روی
+  تک تک واژگان بتواند به صورت تعاملی برابر فارسی واژهٔ قرآنی را مشاهد
+  کند. برای مثال مراجعه کنید به \href{http://alpha.quran.com/}{نمونهٔ
+  انگلیسی آن}
+\item
+  در فازهای بعدی با جذب برنامه‌نویسان از سرتاسر دنیا نرم‌افزار را برای
+  دیگر زبان‌ها آماده کرد.
+\end{enumerate}
+
+برای دریافت داده‌ها می‌توان با ناشران کتاب‌های
+\href{http://bookroom.ir/book/5380}{قرآن با ترجمه و شرح واژگان آقای
+بهرام‌پور} و
+\href{http://makarem.ir/newmain.aspx?lid=0\&mid=61913\&CatID=6509\&typeinfo=3}{لغات
+در تفسیر نمونه} همکاری کرد.
+
+این پروژه متعلق به هیچ سازمانی نخواهد بود، اما افراد حقیقی/حقوقی مانند
+خیرین، سازمان‌ها و شرکت‌ها می‌توانند در تهیهٔ هزینه‌های آن مشارکت داشته
+باشند.
+
+\end{document}

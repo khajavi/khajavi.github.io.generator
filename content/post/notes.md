@@ -1,0 +1,189 @@
++++
+date = "2016-01-21T07:56:29+03:30"
+draft = true
+title = "notes"
+
++++
+
+
+## جاوا
+* [موتور قالب فری‌میکر](http://freemarker.incubator.apache.org/)
+* [پلاگین ایمیل برای وی‌رپتور](https://github.com/caelum/vraptor-simplemail)
+
+## MySQL
+گرفتن بک‌آپ از یک پایگاه داده: `mysqldump -u root -ptmppassword sugarcrm > sugarcrm.sql`
+
+## مثال‌های جاوا
+* [https://github.com/WASdev/sample.javaee7.jms](https://github.com/WASdev/sample.javaee7.jms)
+
+## اسکالا
+* [scaladiagrams](https://github.com/mikeyhu/scaladiagrams) کتابخانه‌ای برای رسم کلاس‌دیاگرام 
+* [Implicit Conversions in Scala](http://tomjefferys.blogspot.de/2011/11/implicit-conversions-in-scala.html)
+
+## آپاچی اسپارک
+* پارتیشنرها در اسپارک چیستند؟ [1](http://stackoverflow.com/questions/17621596/spark-whats-the-best-strategy-for-joining-a-2-tuple-key-rdd-with-single-key-rd)
+* [مفاهیم اولیّهٔ اسپارک](http://horicky.blogspot.de/2015/02/big-data-processing-in-spark.html)
+* به طور پیش‌فرض اسپارک برای هر بلاک فایل در اچ‌دی‌اف‌اس که ۶۴ مگابایت است، یک پارتیشن در نظر می‌گیرد.
+* تعداد پارتیشن‌ها را به اندازهٔ تعداد هسته‌ّای پردازشی بگیرید
+* [معرفی الگوریتم‌های جوین در مپ‌ردیوس](http://www.slideshare.net/shrihari2806/join-algorithms-in-mapreduce)
+* برودکست جوین چیست؟
+* ریپارتیشن جوین چیست؟
+* ردیوس ساید جوین چیست؟
+* مپ‌ساید جوین چیست؟
+* تروجان جوین چیست؟
+* رپلیکیتید جوین چیست؟
+* فرق بین گروپ‌بای‌کی و ردیوس‌بای‌کی چیست؟
+* کتابی از دیتا بریک برای اسپارک [1](https://www.gitbook.com/book/databricks/databricks-spark-knowledge-base/reviews)
+* دو تا مطلب در مورد نحوهٔ تیون کردن اسپارک از کلودرا [۱](http://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-1/) [۲](http://blog.cloudera.com/blog/2015/03/how-to-tune-your-apache-spark-jobs-part-2/)
+* دو تا کتاب از اوریلی در مورد اسپارک
+[Learning Spark Lightning-Fast Big Data Analysis](http://shop.oreilly.com/product/0636920028512.do) این هم از [مثال‌های کتاب](https://github.com/databricks/learning-spark) 
+[Advanced Analytics with Spark Patterns for Learning from Data at Scale](http://shop.oreilly.com/product/0636920035091.do)
+* هش‌پارتیشنینگ چیه و چطوری استفاده می‌شه؟
+* کوالس کردن چیه و به چه دردی می‌خوره؟
+* [Shufflling and repartitioning of RDD’s in apache spark](http://blog.knoldus.com/2015/06/19/shufflling-and-repartitioning-of-rdds-in-apache-spark/)
+* تعداد هسته‌های اسپارک ربطی به تعداد هسته‌های پردازندهٔ فیزیکی نداره. [بیشتر](http://stackoverflow.com/questions/34912457/spark-what-happens-if-i-try-to-use-more-cores-than-i-have)
+* یه نمونه سیستم پیشنهاددهنده که با اسپارک نوشته شده. [+](http://madawas.tumblr.com/post/121661638179/movie-recommendation-with-apache-spark-and-java)
+* روش تبدیل دیتافریم به دیتاست در اسپارک ۱٫۶ [+](http://stackoverflow.com/questions/34654145/how-to-convert-dataframe-to-dataset-in-apache-spark-in-java)
+* تعداد پارتیشن‌ها در اسپارک به چه چیزی بستگی دارد؟ [+](http://stackoverflow.com/questions/26368362/how-does-partitioning-work-in-spark)
+* اسلایدهایی از Matei Zaharia در سال ۲۰۱۲، اسپارک پیشرفته [۱](http://ampcamp.berkeley.edu/wp-content/uploads/2012/06/matei-zaharia-amp-camp-2012-advanced-spark.pdf) [۲](http://ampcamp.berkeley.edu/wp-content/uploads/2012/06/matei-zaharia-part-2-amp-camp-2012-standalone-programs.pdf)
+* متغیرهای برودکست چیستند؟
+* اکیومولاتورها چیستند؟
+* چگونه می‌توان اسپارک را گسترش داد؟
+* سریال‌سازی در اسپارک
+* اسلایدهایی از matei zaharia در سال ۲۰۱۲ در مورد اسپارک [+](http://ampcamp.berkeley.edu/wp-content/uploads/2012/06/matei-zaharia-part-1-amp-camp-2012-spark-intro.pdf)
+* مقاله‌ای که Mate Zaharia ارائه داده و احتمالاً مبنای کار اسپارک بوده است [+](http://www.cs.berkeley.edu/~matei/papers/2010/hotcloud_spark.pdf)
+* این مقاله در مورد RDD هست توسط Matei Zaharia و همکارانش. [+](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)
+* کتاب آزاد اسپارک اینترنالز [+](https://github.com/JerryLead/SparkInternals/tree/master/EnglishVersion) 
+* ویدئوی از Matei Zaharia در مورد نحوهٔ‌ عملکرد داخلی اسپارک [+](https://youtu.be/49Hr5xZyTEA)
+* ویدئو و ارائه‌ای از Matei Zaharia در سال ۲۰۱۲ در مورد RDD که مقالهٔ nsdi12-final138.pdf ارائه شد [+](https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia)
+* یه کورس تصویری و مرحله به مرحله از اسپارک توسط امپ‌کمپ، مباحث اسپارک استریمینگ رو هم داره. [+](http://ampcamp.berkeley.edu/big-data-mini-course/)
+* Directed Acyclic Graph
+* DAG scheduler
+* هر گاه اکشنی روی RDD‌ رخ دهد، اسپارک یک DAG می‌سازد و به زمانبند DAG ارسال می‌کند.
+* زمانبند DAG، اپراتورها را به مراحلی (استیج) از وظایف (تسک‌ها) تقسیم می‌کند. یک مرحله (استیج) از تعدادی وظیفه (تسک) که بر روی پارتیشن‌های دادهٔ ورودی اعمال می‌شوند تشکیل می‌شود. زمانبند DAG اپراتورها را لوله‌بندی می‌کند. برای مثال تعداد زیادی اپراتور map همگی با هم یک استیج را تشکیل می‌دهند. خروجی زمانبند DAG، مجموعه‌ای از استیج‌هاست.
+* استیج‌ها به زمانبندهای تسک پاس داده می‌شوند. زمابند تسک، تسک‌ها را از طریق کلاستر منیجر (اسپارک استندالون/یارن/مزوس)، لانچ می‌کند. زمانبند تسک، چیزی در مورد وابستگی بین استیج‌ها نمی‌داند.
+* ورکر تسک‌ها را روی اسلیو اجرا می‌کند.
+
+حال ببینیم که اسپارک چگونه DAG را می‌سازد.
+
+در سطح بالا، دو ترنسفورمیشن وجود دارد که می‌تواند روی آردی‌دی‌ها اجرا شود که به آن‌ها ترنسفورمیشن‌های باریک (narrow) و عریض (wide) گفته می‌شود. 
+
+ترنسفورمیشن‌های عریض اسپارک اساساً در لبه‌های استیج‌ها رخ می‌دهد. این ترنسفورمیشن‌ها نیاز دارند که داده ابتدا توسط متدی مثل reduceByKey شافل شود.
+
+ترنسفورمیشن‌های باریک، نیازی به شافل داده‌ها در میان پارتیشن‌ها ندارند. برای مثال مپ، فیلتر و ...
+
+```
+scala>     val input = sc.textFile("/var/log/dmesg")
+input: org.apache.spark.rdd.RDD[String] = MapPartitionsRDD[155] at textFile at <console>:52
+
+scala>     val splitedLines = input.map(line => line.split(" ")).
+     |       map(words => (words(0), 1)).
+     |       reduceByKey((a, b) => a + b).
+     |       toDebugString
+splitedLines: String = 
+(2) ShuffledRDD[158] at reduceByKey at <console>:62 []
+ +-(2) MapPartitionsRDD[157] at map at <console>:61 []
+    |  MapPartitionsRDD[156] at map at <console>:60 []
+    |  MapPartitionsRDD[155] at textFile at <console>:52 []
+    |  /var/log/dmesg HadoopRDD[154] at textFile at <console>:52 []
+
+```
+
+![](img/spark-debug-string.png)
+
+اولین خط از پایین RDD ورودی را نشان می‌دهد. ما این RDD را با صدا زدن متند `sc.textFile()` ایجاد کردیم. در زیر دیاگرام DAG تولیدی را نشان می‌دهد
+
+![](img/spark-debug-dag.png)
+
+وقتی که DAG درست شد، زمانبند اسپارک، یک پلن اجرایی فیزیکال می‌سازد. همان طور که بالا اشاره شد، زمانبند DAG گراف را به چندین استیج تقسیم می‌کند، استیج‌ها برمبنای ترنسفورمیشن‌ها ایجاد می‌شوند. ترنسفورمیشن‌های باریک، با همدیگر به یک استیج دسته‌بندی می‌شوند (پایپ‌لاین می‌شوند). برای مثال خودمان، اسپارک دو استیج اجرایی را به صورت زیر ایجاد می‌کند.
+
+![](img/spark-debug-stage.png)
+
+سپس، زمانبند DAG، استیج‌ها را به زمانبند تسک ارسال می‌کند. تعداد تسک‌هایی که سابمیت می‌شوند وابسته به تعداد پارتیشن‌های موجود در textFile دارد. برای مثال فرض کنید که ما در این مثال ۴ پارتیشن داریم، بنابراین ۴ سری از تسک‌ها به صورت موازی تولید و برای کورها/اسلویها سابمیت می‌شوند. این فرآیند در دیاگرام زیر نشان داده شده است.
+![](img/spark-debug-partitions.png)
+
+
+منبع: [Where to learn how DAG works under the covers in RDD?](http://stackoverflow.com/questions/25836316/where-to-learn-how-dag-works-under-the-covers-in-rdd)
+
+### لاینیج
+* **نیازمندی‌های نازک** هر پارتیشن آردی‌دی والد، توسط حدّاکثر یک پارتیشن آردی‌دی فرزند استفاده می‌شود.
+* **نیازمندی‌های پهن** پارتیشن‌های چندگانهٔ فرزند به یک پارتیشن از آردی‌دی والد، نیازمند است.
+
+![](img/narrow-wide-dependencies.png)
+
+
+
+
+* باکت در اسپارک چیست؟
+* چرا شافل، هزینه‌بر است؟
+* چه عملیاتی، نیازمند به شافل هستند؟ ریپارتیشن، کمباین‌بای‌کی، گروپ‌بای، ردیوس‌بای‌کی، کوگروپ
+* انوع شافل‌ها در اسپارک؟ شافل مبتنی بر هش، شافل مبتنی بر سورت
+
+
+# چرا اسپارک
+* برنامه‌نویسی سخت و دشوار در مپ‌دیوس هدوپ
+* باتل‌نک پرفورمنس: برای یک کار مپ‌ردیوس، داده‌ها چندین بار بر روی دیسک ذخیره می‌شوند؟ سه بار/چهار بار
+* پشتیبانی بهتر از کارهای تکراری مثل کارهای یادگیری ماشین.
+
+## باتل‌نک پرفورمنس
+* هایو: ابزاری برای کوئری زدن اس‌کیوال
+* هر کوئری هایو به ۳-۵ کار مپ‌ردیوس ترجمه می‌شود.
+* هر مپ‌ردیوس داده‌ها را سه بار و بیشتر در دیسک ذخیره می‌کند.
+* جمعاً ۱۸-۳۰ اسکن داده برای یک کوئری هایو لازم می‌شود.
+* اسپارک فراهم می‌کند:
+* محاسبات لیزی (بهبود کار قبل از اجرا، کش کردن داده‌ها در مموری، یک بار داده‌ها را از روی دیسک می‌خواند و از این پس از روی رم می‌خواند)
+
+## دو مفهموم مهم اسپارک
+* RDD: مجموعه‌ای از داده‌هاست که در تعدادی پارتیشن تقسیم شده و در حافظهٔ نودهای ورکر در کلاستر ذخیره شده است. آردی‌دی اینترفیسی برای ترنسفورمیشن داده‌هاست.
+* DAG
+
+
+* پارتیشن‌هایی که از بین می‌روند دوباره محاسبه می‌شوند.
+* متادیتایی که ذخیره می‌شود: پارتیشن‌ها، نیازمندی‌ها (لیست تمامی آر‌دی‌دی‌های والد)، روش محاسبهٔ پارتیشن توسط آر‌دی‌دی والد
+
+
+
+
+* [Spark shuffle introduction](http://www.slideshare.net/colorant/spark-shuffle-introduction)
+* [Transformations and actions a visual guide training](http://www.slideshare.net/SparkSummit/transformations-and-actions-a-visual-guide-training) حدود ۱۲۲ تا اسلاید در مورد ای‌پی‌آی اسپارک
+* [Transformations and actions a visual guide training](http://training.databricks.com/visualapi.pdf)
+* [Visual Mnemonics for the PySpark API](http://data-frack.blogspot.de/2015/01/visual-mnemonics-for-pyspark-api.html)
+* [pyspark-pictures](http://nbviewer.jupyter.org/github/jkthompson/pyspark-pictures/blob/master/pyspark-pictures.ipynb)
+
+
+* [Advanced Analytics with Spark; Patterns for Learning from Data at Scale](http://shop.oreilly.com/product/0636920035091.do)
+* [Learning Spark Lightning-Fast Big Data Analysis](http://shop.oreilly.com/product/0636920028512.do)
+
+* اپریشن‌های اسپارک = ترنسفورمیشن‌ها + اکشن‌ها 
+
+###‌ مثال‌های اسپارک
+* چطور اختلاف مقادیر رو با rdd حساب کنیم؟ [+](http://stackoverflow.com/questions/34911994/spark-rdd-set-difference)
+* مثال های دکتر ژن‌هی در مورد اسپارک [+](http://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html)
+* پیاده‌سازی فود ریکامندیشن با اسپارک [+](https://chimpler.wordpress.com/2014/07/22/building-a-food-recommendation-engine-with-spark-mllib-and-play/)
+* [مثالی برای اتصال اسپارک به پایگاه دادهٔ رابطه‌ای MySQL](https://github.com/sujee81/SparkApps/blob/master/spark-load-from-db/src/main/java/com/sparkexpert/Main.java)
+* [Loading database data into Spark using Data Sources API](http://www.sparkexpert.com/2015/03/28/loading-database-data-into-spark-using-data-sources-api/)
+* [Save apache spark dataframe to database](http://www.sparkexpert.com/2015/04/17/save-apache-spark-dataframe-to-database/)
+* [How to define schema for custom type in Spark SQL?](http://stackoverflow.com/questions/32440461/how-to-define-schema-for-custom-type-in-spark-sql)
+* [Use Sbt Console as Spark-Shell](https://bzhangusc.wordpress.com/2015/11/20/use-sbt-console-as-spark-shell/)
+
+## blogs 
+* [Big Data Analytics with Spark](https://bzhangusc.wordpress.com/)
+
+## هوش مصنوعی
+* اسلایدی در مورد کلاسترینگ در یادگیری ماشین [+](http://ampcamp.berkeley.edu/wp-content/uploads/2012/06/tamara-broderick-amp-camp-2012-algorithms-part-2-kmeans.pdf)
+
+
+
+# Go 
+* [Visualizing Concurrency in Go](https://divan.github.io/posts/go_concurrency_visualize/)
+
+# Maven
+* [Bare-bones example of Starting WebLogic Docker Containers from Maven](https://github.com/buttso/weblogic-maven-docker)
+
+# Scala
+* [Pattern Matching in Scala distilled](http://scalabound.org/?p=292)
+* [Expecty - Power Assertions for Scala](https://github.com/pniederw/expecty)
+* [Using the Scala Option, Some, and None idiom (instead of Java null)](http://alvinalexander.com/scala/using-scala-option-some-none-idiom-function-java-null)
+* [Scala Enumerations](http://underscore.io/blog/posts/2014/09/03/enumerations.html)
+* [Scala partial functions (without a PhD)](http://blog.bruchez.name/2011/10/scala-partial-functions-without-phd.html)
+* [How to create and use partial functions in Scala](http://alvinalexander.com/scala/how-to-define-use-partial-functions-in-scala-syntax-examples)

@@ -1,0 +1,194 @@
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+\usepackage{xepersian}
+
+\settextfont[Scale=1]{XB Zar}%{XB Niloofar}%{B Nazanin}%
+\setdigitfont{XB Zar}%{XB Niloofar}%{B Nazanin}%
+\setlatintextfont[Scale=1]{XB Zar}%{Times New Roman}%
+\defpersianfont\nastaliq[Scale=1.5]{IranNastaliq}
+
+\title{طرح
+پیشنهادی پرسش-و-پاسخ}
+
+
+\author{}
+\date{۱۳۹۴/۰۲/۲۰}
+
+
+\begin{document}
+\maketitle
+
+
+
+\textbf{گوشزد ۱:} این نوشته برای ارائه به مرکز تحقیقات و نشر معارف
+اهل‌البیت یا هر شخصیّت حقیقی/حقوقی جهت تأمین هزینه‌های طرح، تنظیم شده
+است. 
+
+\textbf{گوشزد ۲:} در این نوشته، طرح به صورت کلّی بیان شده و از بیان
+جزئیات پرهیز شده است.
+
+\
+
+پیامبر خدا صلی الله علیه و اله و سلم فرمودند:
+\begin{quote}
+وَ قَالَ ص اَلْعِلْمُ خَزَائِنُ وَ مَفَاتِيحُهُ اَلسُّؤَالُ فَاسْأَلُوا
+رَحِمَكُمُ اَللَّهُ فَإِنَّهُ تُؤْجَرُ أَرْبَعَةٌ اَلسَّائِلُ وَ
+اَلْمُتَكَلِّمُ وَ اَلْمُسْتَمِعُ وَ اَلْمُحِبُّ لَهُمْ. /تحف العقول ص
+۴۱
+\end{quote}
+
+\begin{quote}
+دانش گنجينه هايي است كه كليدهايش پرسش است، پس بپرسيد-خداوند شما را رحمت
+كناد ، زيرا در اين پرسش و پاسخ چهار كس اجر و مزد گيرند: پرسشگر، پاسخگو،
+شنونده و دوستدار آنان.
+\end{quote}
+
+\subsection{هدف}\label{ux647ux62fux641}
+
+\textbf{هدف}: طراحی سیستم پرسش-و-پاسخی که هر کسی بتواند آزادانه سؤال خود
+را مطرح کند و دیگران بتوانند سؤال او را پاسخ دهند.
+
+\subsection{مزایا}\label{ux645ux632ux627ux6ccux627}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \textbf{پرداختن به سخن نه به صاحب سخن} در فضای مباحثه در صورتی که هویت
+  و کارنامهٔ علمی دو طرف گفت-و-گو از یکدیگر پوشیده باشد، باعث می‌شود که
+  دو طرف گفت-و-گو با یکدیگر در مورد آنچه به بحث گذاشته می‌شود تمرکز
+  کنند.
+\item
+  \textbf{اجازهٔ طرح و بیان مسئله به افرادی که قدرت بیان مناسبی ندارند
+  داده می‌شود} با توجه به اینکه عده‌ای با قاطعیّت و صلابت نظرات خود را
+  به راحتی در فضای مباحثهٔ حضوری بیان می‌کنند اما افرادی وجود دارند که
+  برای بیان افکار خود قدرت بیان خوبی ندارند، فضای مجازی به این افراد کمک
+  می‌کند تا خارج از جوّ هیاهوی مباحثه، افکار خود را بیان کنند.
+\item
+  \textbf{بایگانی شدن بحث‌ها برای استفادهٔ دیگران بدون شتابزدگی} این
+  سیستم‌ها به کاربران این فرصت را می‌دهد که خارج از هیاهوی مباحثه، در
+  فرصت مناسب مباحث مطرح شده بین افراد را مطالعه کند.
+\item
+  \textbf{میدان دادن به افرادی که از بازگو کردن سؤالات خود واهمه دارند}
+  با توجه به اینکه بسیاری از مردم، از پرسیدن سؤالات بنیادین و به چالش
+  کشیدن باورهای عمومی و رایج واهمه دارند، ایجاد فضایی که مردم بتوانند
+  بدون ابراز هویّت خود، اندیشه‌ها و سؤالات خود را مطرح کنند کمک به باز
+  شدن فضای گفتمان در جامعه خواهد شد.
+\item
+  \textbf{گذر از فضای جدلی و معطوف-به-قدرت به فضای هم‌اندیشی و
+  معطوف-به-حقیقت} تفکر کلامی (تئولوژیک)، در پی اثبات باورهای خود است نه
+  در پی کشف حقیقت. از این رو افراد پاسخگو در طرح‌های پاسخگویی به شبهات،
+  در صدد پاسخ‌گویی و اثبات باورهای خود به مخاطبین هستند و فضای گفتمان و
+  هم‌اندیشی با مخاطب خود برقرار نمی‌کنند همین موضوع باعث می‌شود که نه
+  تنها حقیقت برای طرفین به خوبی منکشف نشود، بلکه باعث دفع مخاطب برای بحث
+  و گفت-و-گو می‌شود. از این رو بهتر است که داعیهٔ پاسخگویی نداشته باشیم
+  بلکه بستری مناسب برای گفتمان فراهم کنیم.
+\end{enumerate}
+
+\subsection{موضوعات
+پرسش-و-پاسخ}\label{ux645ux648ux636ux648ux639ux627ux62a-ux67eux631ux633ux634-ux648-ux67eux627ux633ux62e}
+
+هدف اصلی از طراحی چنین وب‌گاهی، ایجاد فضایی برای هم‌اندیشی و گفتمان در
+زمینه‌های اعتقادی و هستی‌شناسی‌ست. اما با توجه به سابقهٔ سایت‌هایی مثل
+استک‌اکسچنج و کورا، می‌توان به مرور در تمامی زمینه‌های علمی و مورد نیاز،
+زیردامنه‌هایی برای بحث و گفت-و-گو در آن موضوع فراهم کرد. موارد زیر
+نمونه‌ای از این موضوعات می‌تواند باشد:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  قرآن
+\item
+  احادیث
+\item
+  سلامت
+\item
+  خانواده و تربیت فرزند
+\item
+  آشپزی
+\item
+  ورزش و تفریح
+\item
+  تلویزیون و فیلم
+\item
+  فلسفه
+\item
+  عرفان
+\end{itemize}
+
+\subsection{کارهای
+فعلی}\label{ux6a9ux627ux631ux647ux627ux6cc-ux641ux639ux644ux6cc}
+
+کارهای انجام شدهٔ فعلی اکثراً حالت هم‌اندیشی ندارند:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \href{http://porseman.org/}{پرسمان}
+\item
+  \href{http://www.pasokhgoo.ir/}{مرکز ملّی پاسخگویی به سؤالات}
+\item
+  \href{http://www.islamquest.net/}{اسلام کوئست}
+\item
+  و \ldots{}
+\end{itemize}
+
+اما نمونه‌های خوب که مدّنظر ماست:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \href{http://islam.stackexchange.com}{اسلام در استک‌اکسچنج} و همچنین
+  بقیهٔ زیردامنه‌های استک‌اکسچنج
+\item
+  \href{http://www.quora.com/}{کورا}
+\end{itemize}
+
+که در میان این نمونه‌های خوب، نمونهٔ مناسبی برای زبان فارسی وجود ندارد،
+به همین جهت مناسب است که در راه‌اندازی چنین سایتی تلاش کنیم.
+
+و در انتها، این نوشته را با جملهٔ زیبایی از هیدگر به پایان می‌رسانم که
+می‌گفت «پرسش، تقوی تفکر است».
+
+\end{document}
