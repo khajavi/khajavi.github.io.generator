@@ -17,5 +17,15 @@ fi
 git commit  -m "$msg"
 
 # Push source and build repos.
-git push origin hugo
-git subtree push --prefix=public git@github.com:khajavi/khajavi.github.io.git master
+git push origin master
+
+cd public
+
+# Add changes to git
+git add -A
+
+git commit -m "$msg"
+
+git push origin master
+
+cd ..
