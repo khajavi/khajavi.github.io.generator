@@ -6,6 +6,7 @@ categories = [
 title = "معرّفی شمابگو"
 description = ""
 date = "2018-03-06T11:26:43+03:30"
+tags = ["Persian"]
 
 +++
 

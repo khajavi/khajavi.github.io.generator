@@ -7,6 +7,7 @@ categories = [
 ]
 date = "2019-08-10T19:29:06+04:30"
 title = "Scala Contramap"
+tags = ["English"]
 
 +++
 

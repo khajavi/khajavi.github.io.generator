@@ -2,6 +2,7 @@
 date = "2011-11-25T06:56:18+04:30"
 draft = false
 title = "معرّفی پروژهٔ تنزیل"
+tags = ["Persian"]
 
 +++
 
