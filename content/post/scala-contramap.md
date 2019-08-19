@@ -13,7 +13,7 @@ tags = ["English"]
 
 Contramap function have the following definition:
 
-```
+```scala
 def contramap[A, B](fa: F[A])(f: B => A): F[B]
 ```
 
