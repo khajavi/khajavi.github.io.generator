@@ -9,7 +9,7 @@ author = "میلاد"
 disqusShortname = "khajavi" # Optional, enable Disqus integration
 theme = "hyde-x"
 MetaDataFormat = "toml"
-paginate = 10
+paginate = 5
 
 [indexes]
    category = "categories"
