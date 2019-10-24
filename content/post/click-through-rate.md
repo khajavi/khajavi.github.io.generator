@@ -3,7 +3,7 @@ description = ""
 keywords = []
 categories = [
 ]
-title = "Click-through rate (CTR)"
+title = "Calculate click-through rate (CTR) with Stream Processing"
 date = "2019-10-24T13:21:50+03:30"
 
 +++
