@@ -19,4 +19,4 @@ sudo update-alternatives --config java // choose 4
 
 add `/usr/lib/jvm/graalvm-ce-19.2.1/bin` to $PATH
 
-install `native-image` by running `gu install native-image`
+If you want install `native-image` run `gu install native-image`
