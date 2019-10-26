@@ -1,5 +1,5 @@
 +++
-title = "How to get rid of scalac server exception in intellij idea (StackOverflowError)"
+title = "How to get rid of scalac server exception in intellij idea - StackOverflowError"
 description = ""
 keywords = [
 ]
