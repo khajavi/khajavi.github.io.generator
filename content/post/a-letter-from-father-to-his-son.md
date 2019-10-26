@@ -6,6 +6,7 @@ description = ""
 date = "2019-10-26T22:59:56+03:30"
 keywords = [
 ]
+tags = ["Persian"]
 
 +++
 
