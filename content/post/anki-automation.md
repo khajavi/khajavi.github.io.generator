@@ -50,3 +50,4 @@ else
       notify-send "Failed" "adding ${clipboard} failed"
 fi
 ```
+
