@@ -11,6 +11,10 @@ title = "Anki automation"
 
 I wrote following script, to automate adding new card to my Anki decks. When I encounter new word or phrase, I select that word and press *Ctrl+i* to enter it into the Anki deck. befor anythin, you should install *Anki Connect* plugin.
 
+Add shortcut for this script:
+
+![Keyboard Shortcut](/img/keyboard.png)
+
 ```bash
 #!/bin/bash
 clipboard="$(xclip -out -selection)"
