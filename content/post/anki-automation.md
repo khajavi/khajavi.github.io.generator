@@ -14,7 +14,11 @@ I wrote following script, to automate adding new card to my Anki decks. When I e
 ```bash
 #!/bin/bash
 clipboard="$(xclip -out -selection)"
-clipboard=$(jq -aR . <<< $clipboard)
+echo "$clipboard"
+clipboard="$(jshon -s "$clipboard" | sed  's/\\n/<br>/g')"
+echo $clipboard
+#echo "$clipboard"
+#clipboard=$(jq -aR . <<< $clipboard)
 
 data='{
   "action": "addNote",
@@ -46,8 +50,10 @@ r=$(jq '.error' <<< "$resp")
 
 if [ "$r" == "null" ]; then
       notify-send "Success" "${clipboard} is added"
+      paplay /usr/share/sounds/freedesktop/stereo/complete.oga
 else
       notify-send "Failed" "adding ${clipboard} failed"
+      paplay /usr/share/sounds/freedesktop/stereo/dialog-error.oga
 fi
 ```
 
